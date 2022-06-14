@@ -1,0 +1,14 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "ontime music",
+  "main": "music.js",
+  "engines": {
+    "node": ">=12.20"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "play-sound": "^1.1.5"
+  }
+}
