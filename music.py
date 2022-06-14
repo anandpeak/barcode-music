@@ -66,27 +66,27 @@ def on_press(key):
 
         #Voice
         if key.char == "g":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice1.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice1.mp3'))
         if key.char == "G":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice2.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice2.mp3'))
         if key.char == "j":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice3.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice3.mp3'))
         if key.char == "J":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice4.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice4.mp3'))
         if key.char == "k":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice5.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice5.mp3'))
         if key.char == "K":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice6.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice6.mp3'))
         if key.char == "l":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice7.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice7.mp3'))
         if key.char == "L":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice8.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice8.mp3'))
         if key.char == "z":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice9.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice9.mp3'))
         if key.char == "Z":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice10.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice10.mp3'))
         if key.char == "x":
-            mixer.Channel(1).play(mixer.Sound('sounds/voice11.mp3'))
+            mixer.Channel(2).play(mixer.Sound('sounds/voice11.mp3'))
 
     except AttributeError:
         print('special key {0} pressed'.format(
