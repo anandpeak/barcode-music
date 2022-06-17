@@ -102,12 +102,53 @@ def on_press(key):
             mixer.Channel(2).play(mixer.Sound('sounds/soliotei.wav'))
         if key.char == "z":
             mixer.Channel(2).play(mixer.Sound('sounds/yaaraadyahawde.wav'))
+
+
+        #Telmen taiz
+        if key.char == "0":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz1.wav'))
+        if key.char == "3":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz2.wav'))
+        if key.char == "4":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz3.wav'))
+        if key.char == "5":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz4.wav'))
+        if key.char == "6":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz5.wav'))
+        if key.char == "7":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz6.wav'))
+        if key.char == "8":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz7.wav'))
+        if key.char == "9":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz8.wav'))
+        if key.char == "!":
+             mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz9.wav'))
+        if key.char == "@":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz10.wav'))
+        if key.char == "#":
+            mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz11.wav'))
+        if key.char == "%":
+                   mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz12.wav'))
+
+        if key.char == "+":
+             mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz13.wav'))
+        # if key.char == "-":
+        #     mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz'))
+        # if key.char == "*":
+        #     mixer.Channel(5).play(mixer.Sound('sounds/telmentaiz'))
+
+        #nemelt    
+        if key.char == "1":
+            mixer.Channel(4).play(mixer.Sound('sounds/guide.wav'))
+
         if key.char == "2":
-            # mixer.Channel(2).play(mixer.Sound('sounds/voice11.mp3'))
             mixer.Channel(0).stop()
             mixer.Channel(1).stop()
             mixer.Channel(2).stop()
             mixer.Channel(3).stop()
+            mixer.Channel(4).stop()
+            mixer.Channel(5).stop()
+
 
 
     except AttributeError:
