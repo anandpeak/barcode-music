@@ -94,8 +94,8 @@ def on_press(key):
             mixer.Channel(2).play(mixer.Sound('sounds/bichiniiajiltanymu.wav'))
         if key.char == "l":
             mixer.Channel(2).play(mixer.Sound('sounds/yaaygoybnshde.wav'))
-        # if key.char == "L":
-        #     mixer.Channel(2).play(mixer.Sound('sounds/yaaygoybnshde.wav'))
+        if key.char == "L":
+            mixer.Channel(2).play(mixer.Sound('sounds/zayaahwee.wav'))
         if key.char == "x":
              mixer.Channel(2).play(mixer.Sound('sounds/aliwahdaadansaa.wav'))
         if key.char == "Z":
